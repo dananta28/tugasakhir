@@ -18,7 +18,6 @@ from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 # DOWNLOAD NLTK
 # ===============================
 nltk.download("punkt")
-nltk.download("punkt_tab")
 nltk.download("stopwords")
 
 
