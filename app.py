@@ -43,7 +43,7 @@ def load_pickle_from_github(url):
 
 @st.cache_resource
 def load_artifacts():
-    model_url = "https://raw.githubusercontent.com/dananta28/tugasakhir/main/model_xgboost%20(1).pkl"
+    model_url = "https://raw.githubusercontent.com/dananta28/tugasakhir/main/model_xgboost1.pkl"
     vectorizer_url = "https://raw.githubusercontent.com/dananta28/tugasakhir/main/vectorizer%20(3).pkl"
     le_url = "https://raw.githubusercontent.com/dananta28/tugasakhir/main/label_encoder_lp%20(2).pkl"
     mlb_url = "https://raw.githubusercontent.com/dananta28/tugasakhir/main/mlb%20(1).pkl"
